@@ -2,108 +2,82 @@
 
 
 void
-on_button4_supprimer_clicked           (GtkWidget       *button,
+on_ajouter_clicked                     (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button3_chercher_clicked            (GtkWidget       *button,
+on_modifier_clicked                    (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button2_modifier_clicked            (GtkWidget       *button,
+on_chercher_clicked                    (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button1_ajouter_clicked             (GtkWidget       *button,
-                                        gpointer         user_data);
-
-
-void
-on_button5_add_clicked                 (GtkWidget       *button,
+on_supprimer_clicked                   (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button6_cherche_clicked             (GtkWidget       *button,
+on_enregistrer0_clicked                (GtkWidget       *button,
                                         gpointer         user_data);
 
 void
-on_button8_supprimer_clicked           (GtkWidget       *button,
+on_annuler0_clicked                    (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button1_modifier_clicked            (GtkWidget       *button,
+on_enregistrer1_clicked                (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button10_annuler_clicked            (GtkWidget       *button,
+on_annuler1_clicked                    (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button1_annuler_ajout_clicked       (GtkWidget       *button,
+on_enregistrer2_clicked                (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_treeview1_row_activated             (GtkTreeView     *treeview,
-                                        GtkTreePath     *path,
-                                        GtkTreeViewColumn *column,
+on_annuler2_clicked                    (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_afficher_clicked                    (GtkWidget       *objet,
+on_enregistrer3_clicked                (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button_annuler_chercher_clicked     (GtkWidget      *button,
+on_annuler3_clicked                    (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button_annuler_supprimer_clicked    (GtkWidget       *button,
+on_enregitrer4_clicked                 (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_button1_clicked                     (GtkButton       *button,
+on_annuler4_clicked                    (GtkWidget        *button,
                                         gpointer         user_data);
 
 void
-on_annuler_afficher_clicked            (GtkButton       *button,
+on_afficher_clicked                    (GtkWidget       *button,
+                                        gpointer         user_data);
+
+             
+void
+on_retour2_clicked                     (GtkWidget       *button,
                                         gpointer         user_data);
 
 void
-on_treeview2_row_activated             (GtkTreeView     *treeview,
-                                        GtkTreePath     *path,
-                                        GtkTreeViewColumn *column,
+on_retour_clicked                      (GtkWidget      *button,
                                         gpointer         user_data);
 
 void
-on_afficher_treeview_clicked           (GtkWidget       *objet,
+on_ajouter_capteur_clicked             (GtkWidget       *button,
                                         gpointer         user_data);
 
 void
-on_confirmer_mod_clicked               (GtkWidget       *button,
+on_supprimer_capteur_clicked           (GtkWidget      *button,
                                         gpointer         user_data);
 
 void
-on_annuler_mod_clicked                 (GtkWidget       *button,
-                                        gpointer         user_data);
-
-void
-on_treeview2_row_activated             (GtkTreeView     *treeview,
-                                        GtkTreePath     *path,
-                                        GtkTreeViewColumn *column,
-                                        gpointer         user_data);
-
-void
-on_return_chercher_clicked             (GtkWidget       *button,
-                                        gpointer         user_data);
-
-void
-on_button_calculer_clicked             (GtkWidget       *button,
-                                        gpointer         user_data);
-
-void
-on_calculer1_clicked                   (GtkWidget       *button,
-                                        gpointer         user_data);
-
-void
-on_annuler_calcul_clicked              (GtkWidget       *button,
+on_marque_clicked                      (GtkWidget      *button,
                                         gpointer         user_data);

@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/medomar/smartfarme/troupeaux'
+ac_pwd='/home/souha/Bureau/smartfarme/gestion des clients'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -637,15 +637,14 @@ S["XGETTEXT"]="/usr/bin/xgettext"
 S["GMSGFMT"]="/usr/bin/msgfmt"
 S["MSGFMT_OPTS"]="-c"
 S["MSGFMT"]="/usr/bin/msgfmt"
-S["INTL_MACOSX_LIBS"]=""
 S["USE_NLS"]="yes"
-S["GETTEXT_PACKAGE"]="gestion-des-troupeaux"
+S["GETTEXT_PACKAGE"]="gestion-des-clients"
 S["PACKAGE_LIBS"]="-lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfont"\
 "config -lfreetype"
 S["PACKAGE_CFLAGS"]="-pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1"\
-".0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1."\
-"0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/"\
-"usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16"
+".0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12"\
+" -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/u"\
+"sr/include/freetype2"
 S["PKG_CONFIG_LIBDIR"]=""
 S["PKG_CONFIG_PATH"]=""
 S["PKG_CONFIG"]="/usr/bin/pkg-config"
@@ -686,14 +685,14 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} /home/medomar/smartfarme/troupeaux/install-sh"
-S["MAKEINFO"]="${SHELL} /home/medomar/smartfarme/troupeaux/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/medomar/smartfarme/troupeaux/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/medomar/smartfarme/troupeaux/missing automake-1.15"
-S["AUTOCONF"]="${SHELL} /home/medomar/smartfarme/troupeaux/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/medomar/smartfarme/troupeaux/missing aclocal-1.15"
+S["install_sh"]="${SHELL} '/home/souha/Bureau/smartfarme/gestion des clients/install-sh'"
+S["MAKEINFO"]="${SHELL} \"/home/souha/Bureau/smartfarme/gestion des clients/missing\" makeinfo"
+S["AUTOHEADER"]="${SHELL} \"/home/souha/Bureau/smartfarme/gestion des clients/missing\" autoheader"
+S["AUTOMAKE"]="${SHELL} \"/home/souha/Bureau/smartfarme/gestion des clients/missing\" automake-1.15"
+S["AUTOCONF"]="${SHELL} \"/home/souha/Bureau/smartfarme/gestion des clients/missing\" autoconf"
+S["ACLOCAL"]="${SHELL} \"/home/souha/Bureau/smartfarme/gestion des clients/missing\" aclocal-1.15"
 S["VERSION"]="0.1"
-S["PACKAGE"]="gestion-des-troupeaux"
+S["PACKAGE"]="gestion-des-clients"
 S["CYGPATH_W"]="echo"
 S["am__isrc"]=""
 S["INSTALL_DATA"]="${INSTALL} -m 644"
@@ -785,10 +784,10 @@ D["PACKAGE_VERSION"]=" \"\""
 D["PACKAGE_STRING"]=" \"\""
 D["PACKAGE_BUGREPORT"]=" \"\""
 D["PACKAGE_URL"]=" \"\""
-D["PACKAGE"]=" \"gestion-des-troupeaux\""
+D["PACKAGE"]=" \"gestion-des-clients\""
 D["VERSION"]=" \"0.1\""
 D["STDC_HEADERS"]=" 1"
-D["GETTEXT_PACKAGE"]=" \"gestion-des-troupeaux\""
+D["GETTEXT_PACKAGE"]=" \"gestion-des-clients\""
 D["HAVE_SYS_TYPES_H"]=" 1"
 D["HAVE_SYS_STAT_H"]=" 1"
 D["HAVE_STDLIB_H"]=" 1"

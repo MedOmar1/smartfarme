@@ -2,7 +2,7 @@
 <!DOCTYPE glade-project SYSTEM "http://glade.gnome.org/glade-project-2.0.dtd">
 
 <glade-project>
-  <name>Gestion des troupeaux</name>
-  <program_name>gestion-des-troupeaux</program_name>
+  <name>Gestion des clients</name>
+  <program_name>gestion-des-clients</program_name>
   <gnome_support>FALSE</gnome_support>
 </glade-project>

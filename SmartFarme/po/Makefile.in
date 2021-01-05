@@ -12,8 +12,8 @@
 # - Modified by jacob berkman <jacob@ximian.com> to install
 #   Makefile.in.in and po2tbl.sed.in for use with glib-gettextize
 
-GETTEXT_PACKAGE = gestion-des-troupeaux
-PACKAGE = gestion-des-troupeaux
+GETTEXT_PACKAGE = gestion-des-clients
+PACKAGE = gestion-des-clients
 VERSION = 0.1
 
 SHELL = /bin/bash
@@ -93,7 +93,7 @@ all-yes: $(CATALOGS)
 all-no:
 
 $(srcdir)/$(GETTEXT_PACKAGE).pot: $(POTFILES)
-	$(XGETTEXT) --default-domain=$(GETTEXT_PACKAGE) --from-code=UTF-8 \
+	$(XGETTEXT) --default-domain=$(GETTEXT_PACKAGE) \
 	  --msgid-bugs-address='http://bugzilla.gnome.org/enter_bug.cgi?product=glib&keywords=I18N+L10N&component=general' \
 	  --add-comments --keyword=_ --keyword=N_ \
 	  --keyword=C_:1c,2 \

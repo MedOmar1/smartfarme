@@ -4,8 +4,8 @@ SUBDIRS = src po
 
 EXTRA_DIST = \
 	autogen.sh \
-	gestion-des-troupeaux.glade \
-	gestion-des-troupeaux.gladep
+	gestion-des-clients.glade \
+	gestion-des-clients.gladep
 
 install-data-local:
 	@$(NORMAL_INSTALL)

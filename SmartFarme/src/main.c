@@ -15,12 +15,15 @@
 int
 main (int argc, char *argv[])
 {
-  GtkWidget *gestion_des_troupeaux;
+  GtkWidget *client;
   GtkWidget *ajouter;
   GtkWidget *modifier;
   GtkWidget *chercher;
   GtkWidget *supprimer;
-  GtkWidget *calcul ;
+  GtkWidget *formulaire;
+  GtkWidget *capteur;
+
+
 #ifdef ENABLE_NLS
   bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
   bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
@@ -37,9 +40,9 @@ main (int argc, char *argv[])
    * (except popup menus), just so that you see something after building
    * the project. Delete any components that you don't want shown initially.
    */
-  gestion_des_troupeaux = create_gestion_des_troupeaux ();
-  gtk_widget_show (gestion_des_troupeaux);
-  /*ajouter = create_ajouter ();
+  client = create_client ();
+  gtk_widget_show (client);
+  ajouter = create_ajouter ();
   gtk_widget_show (ajouter);
   modifier = create_modifier ();
   gtk_widget_show (modifier);
@@ -47,8 +50,10 @@ main (int argc, char *argv[])
   gtk_widget_show (chercher);
   supprimer = create_supprimer ();
   gtk_widget_show (supprimer);
-  calcul = create_calcul ();
-  gtk_widget_show (calcul);*/
+  formulaire = create_formulaire ();
+  gtk_widget_show (formulaire);
+  capteur = create_capteur_defectueux ();
+  gtk_widget_show (capteur);
 
   gtk_main ();
   return 0;

@@ -1,0 +1,5 @@
+1212 temperature OMEGA
+1313 temperature THERMIBEL
+1414 humidite THERMIBEL
+1515 temperature OMEGA
+1616 humidite DIMELCO
