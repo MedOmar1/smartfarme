@@ -1,0 +1,38 @@
+on_button4_supprimer_clicked           (GtkButton       *button,
+                                        gpointer         user_data)
+{
+GtkWidget *windowsupprimer ;
+windowsupprimer=create_supprimer();
+gtk_widget_show (windowsupprimer);
+}
+
+
+void
+on_button3_chercher_clicked            (GtkButton       *button,
+                                        gpointer         user_data)
+{
+GtkWidget *windowchercher ;
+windowchercher=create_chercher();
+gtk_widget_show (windowchercher);
+}
+
+
+void
+on_button2_modifier_clicked            (GtkButton       *button,
+                                        gpointer         user_data)
+{
+GtkWidget *windowmodifier ;
+windowmodifier=create_modifier();
+gtk_widget_show (windowmodifier);
+}
+
+
+void
+on_button1_ajouter_clicked             (GtkButton       *button,
+                                        gpointer         user_data)
+{
+GtkWidget *windowajouter ;
+windowajouter=create_ajouter();
+gtk_widget_show (windowajouter);
+
+}
