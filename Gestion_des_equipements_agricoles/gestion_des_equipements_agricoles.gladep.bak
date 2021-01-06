@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-project SYSTEM "http://glade.gnome.org/glade-project-2.0.dtd">
+
+<glade-project>
+  <name>Gestion_des_equipements_agricoles</name>
+  <program_name>gestion_des_equipements_agricoles</program_name>
+  <gnome_support>FALSE</gnome_support>
+</glade-project>
